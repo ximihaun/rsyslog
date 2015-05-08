@@ -260,6 +260,10 @@ if ENABLE_MMSEQUENCE
 SUBDIRS += contrib/mmsequence
 endif
 
+if ENABLE_MMDBLOOKUP
+SUBDIRS += contrib/mmdblookup
+endif
+
 if ENABLE_MMFIELDS
 SUBDIRS += plugins/mmfields
 endif
